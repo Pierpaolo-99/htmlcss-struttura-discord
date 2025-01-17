@@ -12,21 +12,49 @@
 }
 
 .debug{
-    header{
-        background-color: #add8e6;
 
-        nav{
-            background-color: #daa520;
-            border: 1px dashed black;
-        }
+    nav{
+        border: 1px dashed black;
     }
 
     .jumbotron{
-        background-color: #00008b;
         min-height: 200px;
 
         .jumbotron_content{
             background-color: #ee82ee;
+        }
+    }
+
+    .invite_only{
+        min-height: 200px;
+
+        .invite_only_image{
+            background-color: #1e90ff;
+        }
+        .invite_only_text{
+            background-color: #ffc0cb;
+        }
+    }
+
+    .community{
+        min-height: 200px;
+
+        .community_image{
+            background-color: #1e90ff;
+        }
+        .community_text{
+            background-color: #ffc0cb;
+        }
+    }
+
+    .fandom{
+        min-height: 200px;
+
+        .fandom_image{
+            background-color: #1e90ff;
+        }
+        .fandom_text{
+            background-color: #ffc0cb;
         }
     }
 }
@@ -35,27 +63,58 @@
 
 #site_header{
     padding: 1rem;
+    background-color: #add8e6;
 }
 
 nav{
+    background-color: #daa520;
     display: flex;
     justify-content: space-between;
 }
 
-.menu{
-    flex-grow: 60%;
-}
-
 /* Main */
 
-.jumbotron{
+.jumbotron,
+.invite_only,
+.community,
+.fandom{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3rem;
 }
 
+.jumbotron{
+    background-color: #00008b;
+}
+
 .jumbotron_content{
     width: 900px;
     height: 400px;
+}
+
+.invite_only{
+    background-color: #ffffff;
+}
+
+.community{
+    background-color: #d3d3d3;
+}
+
+.fandom{
+    background-color: #ffffff;
+}
+
+.invite_only_image,
+.community_image,
+.fandom_image{
+    width: 720px;
+    height: 500px;
+}
+
+.invite_only_text,
+.community_text,
+.fandom_text{
+    width: 480px;
+    height: 500px;
 }
