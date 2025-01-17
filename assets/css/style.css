@@ -59,6 +59,30 @@
             background-color: #228b22;
         }
     }
+
+    .info{
+
+        .contacts{
+            background-color: #f08080;
+            border: 1px dashed black;
+        }
+
+        .list{
+            background-color: #20b2aa;
+            border: 1px dashed black;
+        }
+    }
+
+    .footer{
+        background-color: #7fffd4;
+        border: 1px dashed black;
+
+        .logo_foot,
+        .btn{
+            background-color: #ffb6c1;
+            border: 1px dashed black;
+        }
+    }
 }
 
 /* Header */
@@ -134,10 +158,41 @@ nav{
 
 /* Footer */
 
-footer{
+.info{
     background-color: #23272a;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contacts{
+    width: 350px;
+    height: 580px;
+}
+
+.list{
+    width: 200px;
+    height: 580px;
+}
+
+footer{
+    background-color: #23272a;
+    padding: 1rem;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo_foot,
+.btn{
+    padding: 0.25rem;
 }
