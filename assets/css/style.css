@@ -20,6 +20,15 @@
             border: 1px dashed black;
         }
     }
+
+    .jumbotron{
+        background-color: #00008b;
+        min-height: 200px;
+
+        .jumbotron_content{
+            background-color: #ee82ee;
+        }
+    }
 }
 
 /* Header */
@@ -29,12 +38,24 @@
 }
 
 nav{
-    width: 80%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .menu{
     flex-grow: 60%;
+}
+
+/* Main */
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.jumbotron_content{
+    width: 900px;
+    height: 400px;
 }
