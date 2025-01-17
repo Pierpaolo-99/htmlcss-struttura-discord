@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.debug{
+    header{
+        background-color: #add8e6;
+
+        nav{
+            background-color: #daa520;
+            border: 1px dashed black;
+        }
+    }
+}
+
+/* Header */
+
+#site_header{
+    padding: 1rem;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    flex-grow: 60%;
+}
